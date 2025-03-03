@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.time-display {
+  font-size: 2.5rem;
+  background: #333;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  font-size: 1rem;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#start {
+  background: #4caf50;
+  color: #fff;
+}
+
+#start:hover {
+  background: #45a049;
+}
+
+#pause {
+  background: #ff9800;
+  color: #fff;
+}
+
+#pause:hover {
+  background: #fb8c00;
+}
+
+#reset {
+  background: #f44336;
+  color: #fff;
+}
+
+#reset:hover {
+  background: #e53935;
+}
+
+#lap {
+  background: #2196f3;
+  color: #fff;
+}
+
+#lap:hover {
+  background: #1e88e5;
+}
+
+/* Lap List Styles */
+.lap-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.lap-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  padding: 8px 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.delete-btn {
+  background: #e53935;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #d32f2f;
+}
+
+.delete-btn:active {
+  background: #b71c1c;
+}
