@@ -44,9 +44,6 @@ start index.html (For Windows) open index.html (For Mac)
 ---
 
 ## 🌟 Show Some Love
-If you like this project, give it a ⭐ on [GitHub](https://github.com/prajwal023/SCT_WD_2) ❤️  
+If you like this project, give it a ⭐ on [GitHub](https://github.com/Manish030704/SCT_WD_2) ❤️  
 
----
 
-## 📜 License
-This project is **free to use** and open-source under the **MIT License**.
